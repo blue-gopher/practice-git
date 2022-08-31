@@ -1,0 +1,229 @@
+body {
+    background: #f8f8f8;
+}
+
+.container {
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(img/background.jpg) repeat-x;
+    background-size: cover;
+    height: 100px;
+    position: relative;
+}
+
+.header img {
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+}
+
+
+.header li {
+    float:left;
+    padding-right: 30px;
+    
+}
+
+.menu {
+    list-style-type: none;
+    font: 20px "URW Chancery L", cursive;
+    float: right;
+    
+}
+
+.menu li a {
+    color:dimgrey;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+.menu li a:active {
+    color: darksalmon;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;    
+}
+
+.buy {
+    clear: left;
+    margin-bottom: 12px;
+    padding-top: 5px;
+}
+
+.buy input:hover {
+    color: red;
+}
+
+.buy input:active {
+    color: darksalmon;
+}
+
+table {
+    clear: left;
+}
+
+caption {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea; 
+    
+}
+
+.briefly {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.briefly::first-letter,
+.full::first-letter {
+    color: red;
+    font: 22px "Arial";
+    font-family: cursive;
+}
+
+td {
+    color: #00008B;
+    font: 20px "Comic Sans MS", fantasy;    
+}
+
+.marker {
+    content: url(img/marker.png);
+    background-repeat: no-repeat;
+    width: 40;
+    height: 50;
+}
+
+fieldset {
+    width: 250px;
+}
+
+legend {
+    font: 22px cursive;
+}
+
+input {
+    width: 240px;
+    height: 25px;
+    font-size: 18px;
+    color: black;
+    font-family:inherit;
+}
+/* Ввод текста околадным цветом цветом на азурном фоне*/
+.mail:focus {
+    color:chocolate;
+    background-color:azure;
+}
+
+::placeholder {
+    color:blue ;
+}
+
+select {
+    width: 247px;
+    font-size: 18px;
+    color: blue;
+    font-family:inherit
+}
+
+textarea {
+    width: 240px; 
+    height: 55px; 
+    font-size: 18px;
+    font-weight: 550;
+    color: green;     
+}
+
+/* Заглавные буквы при вводе. Если убрать focus
+то остаются и после того как перешел на др строку*/
+input[type="text"]:focus,
+textarea:focus {
+    text-transform: capitalize;
+}
+
+.photo img {
+    outline: 2px solid black;
+}
+
+.photo img:hover {
+    outline:inherit;
+}
+
+.catalog {
+    position:relative;
+}
+
+.item {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float:left;
+}
+
+hr {
+    clear: both;
+}
+
+
+div > a {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+
+.main {
+    font: 19px "URW Chancery L", cursive;
+}
+
+.footer {
+    height: 100px;
+    background-color: antiquewhite;
+    margin-left: ;
+}
+
+footer {
+    padding-right: 50px;
+    padding-top: 35px;
+    float:right;
+}
+
+.photo {
+    float:left;
+}
+
+.imgText {
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.imgText h3 {
+    margin-top: 0px
+}
+
+.map {
+    height: 374px;
+    width: 100%;
+}
+
+
